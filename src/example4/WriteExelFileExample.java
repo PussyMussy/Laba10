@@ -26,7 +26,7 @@ public class WriteExelFileExample {
 
         Row dataRow2 = sheet.createRow(2);
         dataRow2.createCell(0).setCellValue("Компьютер");
-        dataRow2.createCell(1).setCellValue("Процессор: Intel Core i5, оперативная память 8 Гб");
+        dataRow2.createCell(1).setCellValue("Процессор: Intel Core i7, оперативная память 32 Гб");
         dataRow2.createCell(2).setCellValue(25000);
 
         // Записываем книгу Exel в файл
